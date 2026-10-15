@@ -1,0 +1,20 @@
+<Application x:Class="FenceForge.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             ShutdownMode="OnExplicitShutdown">
+  <Application.Resources>
+    <SolidColorBrush x:Key="AccentBrush" Color="#E47D36" />
+    <SolidColorBrush x:Key="PanelBrush" Color="#FFF8F2" />
+    <Style TargetType="Button">
+      <Setter Property="MinHeight" Value="32" />
+      <Setter Property="Padding" Value="12,5" />
+    </Style>
+    <Style TargetType="TextBox">
+      <Setter Property="Padding" Value="7,5" />
+    </Style>
+    <Style TargetType="ComboBox">
+      <Setter Property="MinHeight" Value="34" />
+      <Setter Property="Padding" Value="5,3" />
+    </Style>
+  </Application.Resources>
+</Application>

@@ -1,0 +1,7 @@
+FenceForge/bin/
+FenceForge/obj/
+FenceForge/publish/
+**/bin/
+**/obj/
+*.user
+*.suo
